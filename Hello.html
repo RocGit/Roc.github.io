@@ -1,0 +1,289 @@
+<html class="pc"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ID選択 | CARADA</title>
+    <meta name="description" content="歩数や体重、睡眠データをグラフでみることができるスマホアプリCARADA（カラダ）は、MY栄養コーチの栄養指導で、無理のないダイエット・健康改善をサポートします。">
+    <meta name="keywords" content="カラダイッカツ,CARADA,カラダ,健診,食事記録,エムティーアイ,健康管理">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+    <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon-precomposed.png">
+    <meta name="apple-mobile-web-app-title" content="CARADA">
+    <!-- Material Design fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="/assets/css/bootstrap-material-design.css" rel="stylesheet">
+    <link href="/assets/css/bootstrap-datepicker3.min.css" rel="stylesheet">
+    <link href="/assets/css/ripples.css" rel="stylesheet">
+    <link href="/assets/css/carada-common.css" rel="stylesheet">
+    <link href="/assets/css/extend.css" rel="stylesheet">
+    <link href="/assets/css/snackbar.min.css" rel="stylesheet">
+    <link href="/assets/css/validetta.css" rel="stylesheet">
+    <link href="/assets/css/pagination.css" rel="stylesheet">
+        <link href="/assets/css/login.css" rel="stylesheet">
+        <link href="/assets/css/login_forold.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script type="text/javascript" async="" src="http://c.nakanohito.jp/b3/bi.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script src="/Scripts/jquery-2.0.3.js"></script>
+
+    <script src="/assets/js/bootstrap.min.js"></script>
+
+    <script src="/assets/js/ripples.js"></script>
+    <script src="/assets/js/material.min.js"></script>
+    <script src="/assets/js/carada-common.js"></script>
+    <script src="/assets/js/snackbar.min.js"></script>
+    <script src="/assets/js/util.js"></script>
+    <script src="/assets/js/nouislider.min.js"></script>
+    <script src="/assets/js/slick.min.js"></script>
+    <script src="/assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="/assets/js/bootstrap-datepicker.ja.min.js"></script>
+    <script src="/assets/js/jquery.sidr.min.js"></script>
+    <script src="/assets/js/desvg.js"></script>
+    
+        <script>
+            $(function () {
+                // body配下の要素をdivで囲む
+                $("body").wrapInner("<div id='wrap' />");
+            });
+        </script>
+    <script>(function(i, s, o, g, r, a, m) {i['GoogleAnalyticsObject'] = r;i[r] = i[r] || function() {(i[r].q = i[r].q || []).push(arguments)}, i[r].l = 1 * new Date();a = s.createElement(o),m = s.getElementsByTagName(o)[0];a.async = 1;a.src = g;m.parentNode.insertBefore(a, m)})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');ga('create', 'UA-77916473-1', 'auto');ga('require', 'displayfeatures');ga('send', 'pageview');</script>
+
+<style type="text/css">#yddContainer{display:block;font-family:Microsoft YaHei;position:relative;width:100%;height:100%;top:-4px;left:-4px;font-size:12px;border:1px solid}#yddTop{display:block;height:22px}#yddTopBorderlr{display:block;position:static;height:17px;padding:2px 28px;line-height:17px;font-size:12px;color:#5079bb;font-weight:bold;border-style:none solid;border-width:1px}#yddTopBorderlr .ydd-sp{position:absolute;top:2px;height:0;overflow:hidden}.ydd-icon{left:5px;width:17px;padding:0px 0px 0px 0px;padding-top:17px;background-position:-16px -44px}.ydd-close{right:5px;width:16px;padding-top:16px;background-position:left -44px}#yddKeyTitle{float:left;text-decoration:none}#yddMiddle{display:block;margin-bottom:10px}.ydd-tabs{display:block;margin:5px 0;padding:0 5px;height:18px;border-bottom:1px solid}.ydd-tab{display:block;float:left;height:18px;margin:0 5px -1px 0;padding:0 4px;line-height:18px;border:1px solid;border-bottom:none}.ydd-trans-container{display:block;line-height:160%}.ydd-trans-container a{text-decoration:none;}#yddBottom{position:absolute;bottom:0;left:0;width:100%;height:22px;line-height:22px;overflow:hidden;background-position:left -22px}.ydd-padding010{padding:0 10px}#yddWrapper{color:#252525;z-index:99999;background:url(chrome-extension://bgllbpdmpeenjbeiigkhccehncomjfbk/ab20.png);}#yddContainer{background:#fff;border-color:#4b7598}#yddTopBorderlr{border-color:#f0f8fc}#yddWrapper .ydd-sp{background-image:url(chrome-extension://bgllbpdmpeenjbeiigkhccehncomjfbk/ydd-sprite.png)}#yddWrapper a,#yddWrapper a:hover,#yddWrapper a:visited{color:#50799b}#yddWrapper .ydd-tabs{color:#959595}.ydd-tabs,.ydd-tab{background:#fff;border-color:#d5e7f3}#yddBottom{color:#363636}#yddWrapper{min-width:250px;max-width:400px;margin-top: 15px;}</style><style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+</style></head>
+<body class="top" style="height: 770px;"><div id="wrap" class="top">
+        <!-- Navbar
+        ================================================== -->
+            <div class="navbar navbar-default navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="/"><img src="/assets/img/logo_head_carada.svg" alt="CARADA"></a>
+                    </div>
+                </div>
+            </div>
+            <div id="sidr" class="sidr right" style="transition: right 0.2s ease;">
+                <ul class="nav navbar-nav"></ul>
+            </div>
+            <div class="mask-layer"></div>  <!-- Navbar -->
+        <div class="container ca-no-foot">
+            
+
+
+<div class="col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3">
+    <p class="title text-center">
+        <img src="../assets/img/carada_login_title_w.png" width="75%">
+    </p>
+    <div class="select well well-round">
+        <a href="/login/corporate" class="">
+            <p style="height: 45px;"><img src="../assets/img/icon/carada_icon_07.svg"></p>
+            <p>お勤めの企業から<br>ご利用案内を受けた方</p>
+            <span class="icon-last glyphicon glyphicon-menu-right"></span>
+        </a>
+    </div>
+    <div class="select well well-round qr-pharmo" hidden="">
+        <a href="carada-app:///InitialFlow">
+            <p style="height: 45px;"><img src="../assets/img/icon/ico_pharmacy.svg"></p>
+            <p>薬局から<br>ご利用案内を受けた方</p>
+            <span class="icon-last glyphicon glyphicon-menu-right"></span>
+        </a>
+    </div>
+    <div class="select well well-round">
+        <a href="/login/individual">
+            <p style="height: 41px;"><img src="../assets/img/icon/menu_06_mono.svg"></p>
+            <p>個人でご利用の方</p>
+            <span class="icon-last glyphicon glyphicon-menu-right"></span>
+        </a>
+    </div>
+</div>
+
+<script>
+
+    $(function () {
+        //---DOM関連---------------------------------
+        // body、id="wrap"のタグにクラスを追加
+        $("body, #wrap").addClass("top");
+
+        // toastを追加
+        var toastObj = '';
+        toastObj += '<div class="toast-area other">';
+        toastObj += '    <div class="toast" style="padding-left:15px;">';
+        toastObj += '        <a href="javascript:void(0);" class="ca-fz-s text-center" style="padding-left:10px;padding-top:20px;">スマートフォンをお持ちの方は<br>こちらからアクセス！<br><img src="../assets/img/QR_product.png"></a>';
+        toastObj += '        <div class="close-toast"><span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span></div>';
+        toastObj += '    </div>';
+        toastObj += '</div>';
+        $("#wrap").append(toastObj);
+        //-------------------------------------------
+
+        
+        $("#showPassword").change(function () {
+            if ($(this).is(":checked")) {
+                $("#Password").attr("type", "text");
+            } else {
+                $("#Password").attr("type", "password");
+            }
+        });
+
+        //---toast用---------------------------------
+        $(".toast-area").animate({'bottom':'10px','opacity':'1'},600);
+
+        $('.close-toast').click(function () {
+            $(this).parent().fadeOut();
+        });
+        //-------------------------------------------
+    });
+</script>
+        </div>
+            <footer class="top">
+                <div class="text-center">
+                    <ul class="text-center">
+                        <li><a href="https://stgwww.mti.co.jp/" target="_blank">運営会社</a></li>
+                        <li><a href="https://stgwww.mti.co.jp/privacy" target="_blank">個人情報保護方針</a></li>
+                        <li><a href="https://stgwww.home.carada-dev.jp/terms" target="_blank">利用規約</a></li>
+                            <li><a href="/select/contact" target="_blank">お問い合わせ</a></li>
+                    </ul>
+                    <small>©株式会社エムティーアイ</small>
+                </div>
+            </footer>
+    <script>
+$(function(){
+//user agent
+var userAgent = window.navigator.userAgent.toLowerCase();
+var device = navigator.userAgent;
+if (
+  device.indexOf('Android') > 0
+) {
+  $(".ios").hide();
+  $(".other").hide();
+} else if( device.indexOf('iPhone') > 0
+  || device.indexOf('iPod') > 0
+  || device.indexOf('iPad') > 0){
+  $(".android").hide();
+  $(".other").hide();
+}else{
+}
+})
+    </script>
+    
+    <script>
+
+        $(function () {
+            //$.material.init();
+
+            $('.ca-tab-responsive ul').slick({
+                dots: false,
+                arrows:true,
+                infinite: false,
+                speed: 300,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                variableWidth: true,
+                responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        variableWidth: true
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows:false,
+                        variableWidth: true
+                    }
+                }
+                /*,
+                {
+                    breakpoint: 480,
+                    settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                    }
+                }*/
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+                ]
+            });
+
+            $(".btn-toggle").sidr({
+                name: 'sidr',
+                side: 'right'
+            });
+
+            // ナビ以外のエリアをクリックしたときに閉じる用設定
+            $(".mask-layer").on("click",function(){
+                $.sidr("close","sidr");
+            })
+
+            var setImg = '.ca-carada-message-fukidashi';
+            var fadeSpeed = 1000;
+            var switchDelay = 4000;
+            var num = $(setImg).find('a').length;
+            var loopNum = 0;
+            //$(setImg + ' a:first').stop().animate({opacity:'1',left:'10px'},fadeSpeed);
+            $(setImg + " a:eq(" + loopNum + ")").addClass("ca-fade-in");
+            if (num > 1) {
+                /*
+                setInterval(function(){
+                $(setImg + ' :first-child').animate({opacity:'0'},fadeSpeed).animate({left:'320px'},fadeSpeed).next('a').delay(1000).animate({opacity:'1',left:'10px'},fadeSpeed).end().appendTo(setImg);
+                },switchDelay);
+                */
+
+                //一発目表示
+                $(setImg + " a:eq(" + loopNum + ")").addClass("ca-fade-in");
+                loopNum++;
+                setInterval(function () {
+                    $(setImg + " a:not(" + loopNum + ")").fadeOut("fast", function () { $(this).removeClass("ca-fade-in") });
+                    $(setImg + " a:eq(" + loopNum + ")").addClass("ca-fade-in");
+                    loopNum++;
+                    console.log(loopNum);
+                    if (loopNum > num - 1) {
+
+                        loopNum = 0;
+
+                    }
+                }, switchDelay);
+
+            }
+        });
+    </script>
+
+    <!-- User Insight PCDF Code Start : home.carada.jp -->
+    <script type="text/javascript">
+
+    var _uic = _uic ||{}; var _uih = _uih ||{};_uih['id'] = 52115;
+    _uih['lg_id'] = '';
+    _uih['fb_id'] = '';
+    _uih['tw_id'] = '';
+    _uih['uigr_1'] = ''; _uih['uigr_2'] = ''; _uih['uigr_3'] = ''; _uih['uigr_4'] = ''; _uih['uigr_5'] = '';
+    _uih['uigr_6'] = ''; _uih['uigr_7'] = ''; _uih['uigr_8'] = ''; _uih['uigr_9'] = ''; _uih['uigr_10'] = '';
+    _uic['fp_domains'] = ['carada.jp'];
+
+    /* DO NOT ALTER BELOW THIS LINE */
+    /* WITH FIRST PARTY COOKIE */
+    (function() {
+    var bi = document.createElement('scri'+'pt');bi.type = 'text/javascript'; bi.async = true;
+    bi.src = ('https:' == document.location.protocol ? 'https://bs' : 'http://c') + '.nakanohito.jp/b3/bi.js';
+    var s = document.getElementsByTagName('scri'+'pt')[0];s.parentNode.insertBefore(bi, s);
+    })();
+    //-->
+    </script>
+    <!-- User Insight PCDF Code End : home.carada.jp -->
+
+
+<div id="snackbar-container"></div><div class="toast-area other" style="bottom: 10px; opacity: 1;">    <div class="toast" style="padding-left:15px;">        <a href="javascript:void(0);" class="ca-fz-s text-center" style="padding-left:10px;padding-top:20px;">スマートフォンをお持ちの方は<br>こちらからアクセス！<br><img src="../assets/img/QR_product.png"></a>        <div class="close-toast"><span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span></div>    </div></div></div><div style="position: static; width: 0px; height: 0px; border: none; padding: 0px; margin: 0px;"><div id="trans-tooltip"><div id="tip-left-top" style="background: url(&quot;chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/tip-left-top.png&quot;);"></div><div id="tip-top" style="background: url(&quot;chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/tip-top.png&quot;) repeat-x;"></div><div id="tip-right-top" style="background: url(&quot;chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/tip-right-top.png&quot;);"></div><div id="tip-right" style="background: url(&quot;chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/tip-right.png&quot;) repeat-y;"></div><div id="tip-right-bottom" style="background: url(&quot;chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/tip-right-bottom.png&quot;);"></div><div id="tip-bottom" style="background: url(&quot;chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/tip-bottom.png&quot;) repeat-x;"></div><div id="tip-left-bottom" style="background: url(&quot;chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/tip-left-bottom.png&quot;);"></div><div id="tip-left" style="background: url(&quot;chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/tip-left.png&quot;);"></div><div id="trans-content"></div></div><div id="tip-arrow-bottom" style="background: url(&quot;chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/tip-arrow-bottom.png&quot;);"></div><div id="tip-arrow-top" style="background: url(&quot;chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/tip-arrow-top.png&quot;);"></div></div></body></html>
